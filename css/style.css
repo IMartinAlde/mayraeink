@@ -1,0 +1,35 @@
+/*PALETA DE COLORES:
+#FFEEEE Rosa
+#FFF6EA Beige claro
+#F7E9D7 Beige medio
+#EBD8C3 Beige oscuro
+#B2997E Beige oscuro oscuro
+*/
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
+
+body {
+    background-color: #FFEEEE80;
+}
+
+.container-fluid {
+    display: flex;
+}
+
+header {
+    background-size: cover;
+    height: 720px;
+}
+
+.navbar {
+    color: #EBD8C3;
+    background-color: #F7E9D790;
+}
+
+.nav-link {
+    font-family: Garamond;
+    font-size: 20px;
+}
+
+.nav-item {
+    border: solid;
+}
