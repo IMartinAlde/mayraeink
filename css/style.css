@@ -1,23 +1,21 @@
 /*PALETA DE COLORES:
 #FFEEEE Rosa
+#FFB5B5 Rosa oscuro
 #FFF6EA Beige claro
 #F7E9D7 Beige medio
 #EBD8C3 Beige oscuro
 #B2997E Beige oscuro oscuro
+#775b3d El más oscuro de todos
 */
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
 
-body {
-    background-color: #FFEEEE80;
-}
-
-.container-fluid {
-    display: flex;
-}
-
 header {
     background-size: cover;
-    height: 720px;
+    height: 700px;
+}
+
+main {
+    background-color: #FFEEEE;
 }
 
 .navbar {
@@ -25,11 +23,32 @@ header {
     background-color: #F7E9D790;
 }
 
-.nav-link {
+.nav-item, .nav-link {
     font-family: Garamond;
     font-size: 20px;
+    color: #775b3d;
+    margin: 5px;
 }
 
-.nav-item {
-    border: solid;
+.about-me-image {
+    width: 50%;
+    text-align: center;
+}
+
+.about-me-text {
+    font-family: Garamond;
+    color: #775b3d;
+    text-align: center;
+}
+
+.title {
+    font-family: Garamond;
+    font-size: 60px;
+    color: #775b3d;
+}
+
+.carousel-text, .sr-only {
+    background-color: #ffb5b575;
+    color: #775b3d;
+    font-weight: bold;
 }
