@@ -1,5 +1,6 @@
 /*PALETA DE COLORES:
 #FFEEEE Rosa
+#FFD4D4 Rosa intermedio
 #FFB5B5 Rosa oscuro
 #FFF6EA Beige claro
 #F7E9D7 Beige medio
@@ -15,7 +16,12 @@ header {
 }
 
 main {
-    background-color: #FFEEEE;
+    background-color: #ffd4d4;
+}
+
+.separator{
+    background-color: #FFB5B5;
+    border: 10px double #ffd4d4;
 }
 
 .navbar {
@@ -31,20 +37,27 @@ main {
 }
 
 .about-me-image {
-    width: 50%;
     text-align: center;
 }
 
-.about-me-text {
+.about-me-text, .my-jobs-text {
+    display: flex;
+    font-size: 20px;
     font-family: Garamond;
     color: #775b3d;
     text-align: center;
+    align-items: center;
+
 }
 
 .title {
     font-family: Garamond;
     font-size: 60px;
     color: #775b3d;
+}
+
+.carousel-img {
+    text-align: center;
 }
 
 .carousel-text, .sr-only {
